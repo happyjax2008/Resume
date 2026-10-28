@@ -120,3 +120,7 @@ p.summary {
     font-size: 13px;
 }
 
+.left-column {
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+}
