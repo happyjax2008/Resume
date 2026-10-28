@@ -1,55 +1,122 @@
 /* Header Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     text-align: center;
-    margin-bottom: 10px;
-    border-bottom: 2px solid black;
-    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 20px;
 }
 
+h1 {
+    font-size: 28px;
+    color: #1a365d;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+
+.subtitle {
+    font-size: 15px;
+    color: #4a5568;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.contact-info a {
+    color: #2b6cb0;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
 /* Body Styles */
 
-
 body {
-    font-family: sans-serif;
-    margin: auto;
-    padding: 2em;
-    max-width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f4f6f9;
+    padding: 40px 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-top: 6px solid #1a365d;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #1a365d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
+p.summary {
+    font-size: 14px;
+    color: #4a5568;
+    text-align: justify;
+}
+
+/* Grid for Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    font-size: 14px;
+}
+.skills-category strong {
+    color: #2d3748;
+}
+
+/* Experience Section */
+.entry {
+    margin-bottom: 15px;
+}
+
+.entry-header {
     display: flex;
-    align-items: flex-start;
-    font-size: 10pt;
-    font-weight: lighter;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    margin-bottom: 4px;
 }
 
-#initials {
-    font-family: sans-serif;
-    font-size: 4em;
-    margin-bottom: 2rem;
-    padding: 2rem;
+.job-title {
+    font-weight: bold;
+    color: #2d3748;
 }
 
-#initials, h2 {
-    border-bottom: black solid 1px;
-    margin: 1rem 0;
-    padding-bottom: 1rem;
+.company-name {
+    font-style: italic;
+    color: #4a5568;
 }
 
-#initials, h1, h2 {
-    text-align: center;
-    font-weight: lighter;
-}
-
-p {
-    font-family: serif;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+.date-location {
+    color: #718096;
+    font-size: 13px;
 }
 
