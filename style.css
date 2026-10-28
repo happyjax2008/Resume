@@ -48,6 +48,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: black;
+    display: flex;
+    justify-content: center;
     background-color: #f4f6f9;
     padding: 40px 20px;
 }
