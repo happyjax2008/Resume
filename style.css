@@ -124,3 +124,9 @@ p.summary {
     border-right: 2px solid #ccc;
     padding-right: 20px;
 }
+div#right-column {
+    border-left: black solid 1px;
+    flex: 1 1 600px;
+    padding: 1em;
+    line-height: 1.2em;
+}
