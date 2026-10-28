@@ -19,3 +19,19 @@ h1, h2 {
 p {
     margin-bottom: 20px;
 }
+
+header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+
