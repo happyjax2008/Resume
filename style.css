@@ -47,7 +47,7 @@ h1 {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333333;
+    color: black;
     background-color: #f4f6f9;
     padding: 40px 20px;
 }
@@ -89,7 +89,7 @@ p.summary {
     font-size: 14px;
 }
 .skills-category strong {
-    color: #2d3748;
+    color: black;
 }
 
 /* Experience Section */
@@ -107,21 +107,21 @@ p.summary {
 
 .job-title {
     font-weight: bold;
-    color: #2d3748;
+    color: black;
 }
 
 .company-name {
     font-style: italic;
-    color: #4a5568;
+    color: black;
 }
 
 .date-location {
-    color: #718096;
+    color: black;
     font-size: 13px;
 }
 
 .left-column {
-    border-right: 2px solid #ccc;
+    border-right: 2px solid black;
     padding-right: 20px;
 }
 div#right-column {
