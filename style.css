@@ -70,14 +70,14 @@ h2 {
     color: #1a365d;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid black;
     padding-bottom: 5px;
     margin-bottom: 12px;
 }
 
 p.summary {
     font-size: 14px;
-    color: #4a5568;
+    color: black;
     text-align: justify;
 }
 
