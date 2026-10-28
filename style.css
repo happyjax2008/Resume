@@ -1,5 +1,13 @@
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
 
 /* Body Styles */
+
 
 body {
     font-family: sans-serif;
